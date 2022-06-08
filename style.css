@@ -1,0 +1,97 @@
+body {font-family:arial;
+color: grey;
+background-color:azure;
+padding: 40px 0px;}
+h1 {font-size:36px;
+margin-bottom:10px;}
+h2 {font-size:28px;
+}
+h3 {margin-top: 5px;}
+img {}
+span {color:rgb(218, 177, 184); 
+
+font-weight: bold;}
+
+section,header {padding:10px 60px 20px 60px;
+
+
+}
+
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top:60px;
+
+ }
+ header ul {list-style: none;}
+
+  li {
+     margin-bottom: 15px;
+ }
+.addressicon {
+    width:16px;
+    height:16px;
+    background-color:rgb(70, 42, 61);
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align:middle;
+    
+
+}
+
+
+
+.circle {border-radius:50%;}
+
+.container {
+    box-shadow: 0 0 20px grey;
+    width: 960px;
+    margin:0 auto;
+    background-color:aliceblue;
+
+}
+
+.profilepicture {width:180px;
+height:auto;}
+
+.hobbies {list-style: none;
+    padding:0;
+    display:flex;
+flex-wrap: wrap;}
+
+    .hobbies li {width:50%;
+    display: flex;
+align-items: flex-start;
+margin-bottom: 40px;}
+.hobbies div {margin-left:20px;}
+
+.hobbies p {color:grey;}
+
+p {line-hight:1.5;}
+
+.downloadlink {border:2px solid pink;
+color:black;
+text-decoration:none;
+padding: 10px 20px;
+display:inline-block;
+margin-top:20px;
+border-radius:26px;
+transition:background-color 0.5s;
+color:0.5s;
+box-shadow: 0 0 20px grey;}
+
+.downloadlink:hover {
+    color:white;
+    background-color:brown
+}
+
+.downloadlink:focus {
+    outline:none;
+    color:white;
+    background-color:brown
+}
+
+.downloadlink:active {
+    text-decoration:underline;
+}
